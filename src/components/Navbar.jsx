@@ -10,6 +10,7 @@ export default function Navbar() {
                 <Link style={linkStyle} to="/farmer/dashboard">Farmer</Link>
                 <Link style={linkStyle} to="/farmer/add-crop">Add Crop</Link>
                 <Link style={linkStyle} to="/admin/orders">Admin</Link>
+                <Link style={linkStyle} to="/ngo/dashboard">NGO</Link> {/* 👈 Added */}
             </div>
         </div>
     );
